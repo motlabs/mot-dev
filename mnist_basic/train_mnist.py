@@ -1,10 +1,8 @@
 from datetime import datetime
 
-import numpy as np
-
-from data_manager import *
-from model import *
-from utill import *
+from mnist_basic.data_manager import *
+from mnist_basic.model import *
+from mnist_basic.utill import *
 
 
 class TrainModel(DataManager, BuildModel):
