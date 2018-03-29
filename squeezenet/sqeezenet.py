@@ -12,7 +12,7 @@ def squeeze_layer(layer, num_outputs, name='squeeze_layer'):
 def expand_layer(layer, num_outputs, name='expand_layer'):
     with tf.variable_scope(name):
         expand_1 = layers.conv2d(layer, num_outputs, k_size=(1, 1), strides=(1, 1), name='expand_1x1')
-        expand_2 = layers.conv2d(expand_1, num_outputs, k_size=(3, 3), strides=(1, 1), name='expand_3x3')
+        expand_2 = layers.conv2d(layer, num_outputs, k_size=(3, 3), strides=(1, 1), name='expand_3x3')
         return tf.concat([expand_1, expand_2], -1)
 
 
