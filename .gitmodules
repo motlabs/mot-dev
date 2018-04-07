@@ -1,0 +1,3 @@
+[submodule "tflite"]
+	path = tflite
+	url = https://github.com/jwkanggist/tensorflowlite
