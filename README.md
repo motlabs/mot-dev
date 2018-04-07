@@ -20,10 +20,14 @@ This repository include several labs generated in MoTLab study
     - Author: Joonho Lee
 
 - lab8: Squeezenet Tensorflow development    
-    - ./lab9_squeezenet
+    - ./lab8_squeezenet
     - Author: Joonho Lee
 
-- lab9: tflite conversion from Tensorflow model
+- lab9: Tensorboard use with Mnist data set   
+    - ./lab9_mnist_tensorboard
+    - Author: Joonho Lee
+
+- lab10: tflite conversion from Tensorflow model
     - ./tflite (git submoduled from https://github.com/jwkanggist/tensorflowlite)
     - Author: Jaewook Kang
 
