@@ -14,7 +14,7 @@
 - For 16.66 month less use, gcloud is cheaper.
 
 
-### Information
+## Information
 
 | Items                     |   Colab GPU                   |   gcloud GPU  per hour                      |
 | ------------------------  | :---------------------------: | :-----------------------------------------: |
@@ -25,9 +25,9 @@
 **BASIC_GPU scale tier**
 A single worker instance with a single NVIDIA Tesla K80 GPU.
 
-#### gcloud GPU pricing 
+## Google Cloud GPU Pricing Examples
 
-**Time based Price**
+**1) Time based Price**
 ```bash
 (Price per hour / 60 ) * job duration in minites
 ```
@@ -40,7 +40,7 @@ Price for use = (1.3578 / 60) * 12 * 60 = $16.2936
 ```
  
  
-**Training unit based price**
+**2) Training unit based price**
 ```bash
 (training units * base price per hour / 60) * job duration in minutes
 ```
@@ -54,6 +54,6 @@ Price for use = (2.5144 * $0.49 / 60) * 12 * 60 = $14.7846
 ```
 
 
-- Reference: 
-    - About Pricing: https://cloud.google.com/ml-engine/docs/pricing  
-    - About scale tier: https://cloud.google.com/ml-engine/docs/tensorflow/training-overview#scale_tier
+## Reference: 
+- About Pricing: https://cloud.google.com/ml-engine/docs/pricing  
+- About scale tier: https://cloud.google.com/ml-engine/docs/tensorflow/training-overview#scale_tier
