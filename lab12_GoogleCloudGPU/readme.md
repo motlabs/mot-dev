@@ -17,9 +17,9 @@
 ### Information
 
 | Items                     |   Colab GPU                   |   gcloud GPU  per hour                      |
-| :------------------------:| :------------------------ --: | :-----------------------------------------: |
-| Time based price          |   Free (limited to 12 hours)  |   $1.3578 / hour (BASIC_GPU in Asia-pacific) |
-| Training unit based price |   Free (Limited to 12 hours)  |   $2.5144 / hour (BASIC_GPU in Asia-pacific) |
+| ------------------------  | :---------------------------: | :-----------------------------------------: |
+| Time based price          |   Free (limited to 12 hours)  |   $1.3578 / hour (BASIC_GPU in Asia-pacific)|
+| Training unit based price |   Free (Limited to 12 hours)  |   $2.5144 / hour (BASIC_GPU in Asia-pacific)|
 
 
 **BASIC_GPU scale tier**
