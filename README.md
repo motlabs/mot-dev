@@ -31,6 +31,14 @@ This repository include several labs generated in MoTLab study
     - ./tflite (git submoduled from https://github.com/jwkanggist/tensorflowlite)
     - Author: Jaewook Kang
 
+- lab11: Work with tf.Data to implementation on DataManager for MNIST data set 
+    - ./lab11_tfdata_example
+    - Author: Joonho Lee
+    
+- lab12: Use Google Cloud GPU: from `how to use` to `price comparison to colab`
+    - ./lab12_GoogleCloudGPU
+    - Author: Joongwon Hwang and Jaewook Kang
+  
 
 ### Dependencies
 - Tensorflow >=1.4

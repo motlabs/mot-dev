@@ -109,3 +109,8 @@ ENV/
 *jwkangmacproui*
 
 *.pyc
+
+
+# remove figure files
+.png
+.jpg
