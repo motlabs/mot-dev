@@ -110,6 +110,24 @@ gcloud ml-engine jobs submit training $JOB_NAME \
     --trainer_arg_n value_n
 ```
 
+GPU사용시 system option에는 --scale-tier basic-gpu 추가 (K80으로 GPU인스턴스 하나 사용)
+
+어플리케이션은 GPU를 사용하도록 설정이 되어있어야함
+```buildoutcfg
+gcloud ml-engine jobs submit training $JOB_NAME \
+    --job-dir $JOB_DIR  \
+    --package-path $TRAINER_PACKAGE_PATH \
+    --module-name $MAIN_TRAINER_MODULE \
+    --region us-central1 \
+    --scale-tier basic-gpu \
+    -- \
+    --trainer_arg_1 value_1 \
+    ...
+    --trainer_arg_n value_n
+```
+
+GPU사양에 대한 scale-tier는 다음을 참조 : [링크](https://cloud.google.com/ml-engine/docs/pricing)
+
 # Comparison: Colab GPU use vs. gcloud GPU use
 
 
